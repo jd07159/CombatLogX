@@ -29,7 +29,7 @@ public final class ListenerCrystals_Modern extends ExpansionListener {
         }
 
         EntityType entityType = e.getEntityType();
-        if (entityType != EntityType.ENDER_CRYSTAL) {
+        if (entityType != EntityType.END_CRYSTAL) {
             return;
         }
 
