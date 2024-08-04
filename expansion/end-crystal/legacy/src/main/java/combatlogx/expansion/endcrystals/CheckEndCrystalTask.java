@@ -35,7 +35,7 @@ public final class CheckEndCrystalTask extends LocationTaskDetails {
         Collection<Entity> nearbyEntityCollection = world.getNearbyEntities(location, 4.0D, 4.0D, 4.0D);
         for (Entity entity : nearbyEntityCollection) {
             EntityType entityType = entity.getType();
-            if (entityType != EntityType.ENDER_CRYSTAL) {
+            if (entityType != EntityType.END_CRYSTAL) {
                 continue;
             }
 
